@@ -1,4 +1,4 @@
-﻿define(['knockout','knockoutBindings/bindings/readonly'], function (ko1) {
+﻿define(['knockout','knockoutCustomBindings/readonly'], function (ko1) {
     var firstName = ko1.observable("Planet"),
         lastName = ko1.observable("Earth");
 
