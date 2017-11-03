@@ -6,7 +6,8 @@
         'transitions': '../lib/durandal/v2.2.0/js/transitions',
         'knockout': '../lib/knockout/v3.4.2/knockout-3.4.2',
         'bootstrap': '../lib/bootstrap/js/bootstrap',
-        'jquery': '../lib/jquery/v3.2.1/jquery-3.2.1',
+        //'jquery': '../lib/jquery/v1.9.1/jquery-1.9.1',
+        'jquery': '../lib/jquery/v3.2.1/jquery-3.2.1', //dialog 报错
         'knockoutCustomBindings': '../lib/knockout/customBindings',
     },
     shim: {
