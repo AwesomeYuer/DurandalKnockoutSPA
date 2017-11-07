@@ -6,6 +6,8 @@
         }).map([
             { route: ['', 'helloWorld'], moduleId: 'helloWorld/index', title: 'Hello World', type: 'intro', nav: true },
             { route: 'ReadOnly', moduleId: 'ReadOnly/index', title: 'ReadOnly', type: 'intro', nav: true },
+            { route: 'Perf-Memory', moduleId: 'perf/memory', title: 'Perf-Memory', type: 'intro', nav: true },
+            { route: 'JQuery-UI AutoComplete', moduleId: 'jquiAutoComplete/index', title: 'JQuery-UI AutoComplete', type: 'intro', nav: true },
            
         ]).buildNavigationModel();
 

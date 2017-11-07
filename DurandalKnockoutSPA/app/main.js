@@ -8,6 +8,7 @@
         'bootstrap': '../lib/bootstrap/js/bootstrap',
         //'jquery': '../lib/jquery/v1.9.1/jquery-1.9.1',
         'jquery': '../lib/jquery/v3.2.1/jquery-3.2.1', //dialog 报错
+        'jquery-ui': '../lib/jquery-ui/v1.12.1/jquery-ui',
         'knockoutCustomBindings': '../lib/knockout/customBindings',
     },
     shim: {
