@@ -7,10 +7,10 @@
         // It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.
         return firstName() + " " + lastName();
     });
-    var onPasteProcess = function (e) {
+    var onPasteProcess = function (data, e) {
         var text = window.clipboardData.getData('text');
 
-        if (text != 'sb') {
+        if (text == 'sb') {
             e.preventDefault();
             return false;
         }
