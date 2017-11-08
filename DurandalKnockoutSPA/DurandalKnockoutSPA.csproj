@@ -42,6 +42,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app\MicroshaoftSamples\format\index.html" />
+    <Content Include="app\MicroshaoftSamples\format\index.js" />
     <Content Include="app\MicroshaoftSamples\jquiAutoComplete\index.html" />
     <Content Include="app\MicroshaoftSamples\jquiAutoComplete\index.js" />
     <Content Include="app\MicroshaoftSamples\readOnly\index.html" />
@@ -84,6 +86,7 @@
     <Content Include="lib\jquery\v3.2.1\jquery-3.2.1.min.js" />
     <Content Include="lib\jquery\v3.2.1\jquery-3.2.1.slim.js" />
     <Content Include="lib\jquery\v3.2.1\jquery-3.2.1.slim.min.js" />
+    <Content Include="lib\knockout\customBindings\format.js" />
     <Content Include="lib\knockout\v3.4.2\knockout-3.4.2.debug.js" />
     <Content Include="lib\knockout\v3.4.2\knockout-3.4.2.js" />
     <Content Include="lib\require\v2.1.11\almond-custom.js" />

@@ -1,4 +1,4 @@
-﻿define(['knockout','knockoutCustomBindings/readonly'], function (ko1) {
+﻿define(['knockout', 'knockoutCustomBindings/readonly', 'knockoutCustomBindings/format'], function (ko1) {
     var firstName = ko1.observable("Planet"),
         lastName = ko1.observable("Earth");
 
@@ -19,19 +19,29 @@
     };
 
 
-    var compositionCompleteProcess = function () {
-
-        console.log("compositionComplete");
-
-    };
-
-    return  {
+    
+    
+    var result = {
+        compositionCompleted : false,
         firstName: firstName,
         lastName: lastName,
         fullName: fullName,
         onPasteProcess: onPasteProcess,
         foo: function (x) { return '[' + x + ']'; },
-        compositionComplete: compositionCompleteProcess,
+        //compositionComplete: compositionCompleteProcess,
 
-    }
+    };
+    
+    var compositionCompleteProcess = function () {
+        
+        result.firstName("999999999999");
+       
+        console.log("compositionComplete");
+        result.compositionCompleted = true;
+    };
+
+    result.compositionComplete = compositionCompleteProcess;
+
+
+    return result;
 });
