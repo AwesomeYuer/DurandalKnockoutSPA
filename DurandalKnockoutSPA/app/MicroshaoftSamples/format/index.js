@@ -18,7 +18,10 @@
 
     };
 
+    var onBlurProcess = function () {
+        alert("onBlur");
 
+    };
     
     
     var result = {
@@ -27,6 +30,7 @@
         lastName: lastName,
         fullName: fullName,
         onPasteProcess: onPasteProcess,
+        onBlurProcess: onBlurProcess,
         foo: function (x) { return '[' + x + ']'; },
         //compositionComplete: compositionCompleteProcess,
 

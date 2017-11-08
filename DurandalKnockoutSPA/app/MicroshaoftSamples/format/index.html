@@ -11,6 +11,7 @@
                                         value: firstName
                                         , readOnly : true
                                         , format: { Param1: 111, Param2: 'AAAAA'}
+                                        
                                     " />
                 <br />
 
@@ -21,6 +22,8 @@
             <div class="col-sm-4">
                 on paste control, only support IE, 禁止粘贴 "sb"
                 <input type="text" class="form-control" placeholder="last name" data-bind="value: lastName, event: { paste: onPasteProcess}">
+
+
             </div>
         </div>
 
@@ -29,5 +32,12 @@
                 <h3 class="text-center">Hello, <span data-bind="text: fullName"> </span>!</h3>
             </div>
         </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-4">
+                <input type="text" class="form-control" placeholder="last name" data-bind="value: lastName, enable: false" onblur="alert('aaaa')">
+            </div>
+        </div>
+
     </form>
 </div>
