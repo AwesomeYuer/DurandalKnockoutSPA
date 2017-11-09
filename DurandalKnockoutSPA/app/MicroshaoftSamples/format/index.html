@@ -23,6 +23,7 @@
                 on paste control, only support IE, 禁止粘贴 "sb"
                 <input type="text" class="form-control" placeholder="last name" data-bind="value: lastName, event: { paste: onPasteProcess}">
 
+                
 
             </div>
         </div>
@@ -36,6 +37,12 @@
         <div class="form-group">
             <div class="col-sm-offset-1 col-sm-4">
                 <input type="text" class="form-control" placeholder="last name" data-bind="value: lastName, enable: false" onblur="alert('aaaa')">
+
+                sssssssssssssssss
+               
+                <input type="text" class="form-control" placeholder="last name" value="test" data-bind="attr: { disabled: true}">
+                <input type="text" class="form-control" placeholder="last name" value="test" data-bind="attr: { disabled: false}">
+
             </div>
         </div>
 
