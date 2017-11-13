@@ -1,4 +1,4 @@
-﻿define(["utilities/eventlogentrytype"], function (EventLogEntryType) {
+﻿define(["enums/eventlogentrytype"], function (EventLogEntryType) {
 
     return {
                 EventLogSourceName: "Microshaoft",

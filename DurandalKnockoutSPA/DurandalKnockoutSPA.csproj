@@ -99,7 +99,7 @@
     <Content Include="lib\require\v2.3.5\require.js" />
     <Content Include="lib\require\v2.3.5\text.js" />
     <Content Include="lib\Configuration\appConfiguration.js" />
-    <Content Include="lib\utilities\eventLogEntryType.js" />
+    <Content Include="lib\enums\eventLogEntryType.js" />
     <Content Include="lib\utilities\eventlogger.js" />
     <Content Include="README.md" />
     <Content Include="lib\durandal\v2.2.0\README.md" />

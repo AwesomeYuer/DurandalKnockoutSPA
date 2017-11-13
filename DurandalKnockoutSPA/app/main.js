@@ -10,6 +10,7 @@
         'jquery': '../lib/jquery/v3.2.1/jquery-3.2.1', //dialog 报错
         'jquery-ui': '../lib/jquery-ui/v1.12.1/jquery-ui',
         'knockoutCustomBindings': '../lib/knockout/customBindings',
+        'enums': '../lib/enums',
         'utilities': '../lib/utilities',
         'configuration': '../lib/configuration',
     },

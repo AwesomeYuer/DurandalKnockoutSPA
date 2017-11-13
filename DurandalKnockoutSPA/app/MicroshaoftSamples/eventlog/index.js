@@ -1,4 +1,4 @@
-﻿define(['knockout', 'utilities/eventlogger', 'utilities/eventlogentrytype'], function (
+﻿define(['knockout', 'utilities/eventlogger', 'enums/eventlogentrytype'], function (
             ko1,
             EventLogger,
             EventLogEntryType
