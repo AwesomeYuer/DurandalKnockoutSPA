@@ -42,6 +42,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app\MicroshaoftSamples\eventlog\index.html" />
+    <Content Include="app\MicroshaoftSamples\eventlog\index.js" />
     <Content Include="app\MicroshaoftSamples\format\index.html" />
     <Content Include="app\MicroshaoftSamples\format\index.js" />
     <Content Include="app\MicroshaoftSamples\jquiAutoComplete\index.html" />
@@ -96,6 +98,9 @@
     <Content Include="lib\require\v2.3.5\r.js" />
     <Content Include="lib\require\v2.3.5\require.js" />
     <Content Include="lib\require\v2.3.5\text.js" />
+    <Content Include="lib\Configuration\appConfiguration.js" />
+    <Content Include="lib\utilities\eventLogEntryType.js" />
+    <Content Include="lib\utilities\eventlogger.js" />
     <Content Include="README.md" />
     <Content Include="lib\durandal\v2.2.0\README.md" />
     <Content Include="lib\jquery\v3.2.1\jquery-3.2.1.slim.min.map" />

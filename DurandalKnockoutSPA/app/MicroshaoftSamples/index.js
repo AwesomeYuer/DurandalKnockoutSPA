@@ -9,6 +9,7 @@
             { route: 'Perf-Memory', moduleId: 'perf/memory', title: 'Perf-Memory', type: 'intro', nav: true },
             { route: 'JQuery-UI AutoComplete', moduleId: 'jquiAutoComplete/index', title: 'JQuery-UI AutoComplete', type: 'intro', nav: true },
             { route: 'Format custom binding', moduleId: 'format/index', title: 'Format custom binding', type: 'intro', nav: true },
+            { route: 'EventLog', moduleId: 'eventlog/index', title: 'EventLog', type: 'intro', nav: true },
            
         ]).buildNavigationModel();
 
