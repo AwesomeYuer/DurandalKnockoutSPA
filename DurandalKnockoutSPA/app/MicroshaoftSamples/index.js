@@ -10,6 +10,7 @@
             { route: 'JQuery-UI AutoComplete', moduleId: 'jquiAutoComplete/index', title: 'JQuery-UI AutoComplete', type: 'intro', nav: true },
             { route: 'Format custom binding', moduleId: 'format/index', title: 'Format custom binding', type: 'intro', nav: true },
             { route: 'EventLog', moduleId: 'eventlog/index', title: 'EventLog', type: 'intro', nav: true },
+            { route: 'Utility _', moduleId: 'Utility/_', title: 'Utility _', type: 'intro', nav: true },
            
         ]).buildNavigationModel();
 

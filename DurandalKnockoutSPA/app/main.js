@@ -22,7 +22,12 @@
     }
 });
 
-define(['durandal/system', 'durandal/app', 'durandal/viewLocator', 'bootstrap'], function (system, app, viewLocator) {
+define(['durandal/system',
+    'durandal/app',
+    'durandal/viewLocator',
+    'bootstrap',
+    'utilities/utility'
+], function (system, app, viewLocator, bs, _) {
     //>>excludeStart("build", true);
     system.debug(true);
     //>>excludeEnd("build");
